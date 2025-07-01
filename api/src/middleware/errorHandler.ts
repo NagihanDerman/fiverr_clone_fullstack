@@ -6,15 +6,15 @@ const errorMiddleware = (
   res: Response,
   next: NextFunction
 ) => {
-  // proje gelistirme asamasinda  terminalde detayları gorebilmek icin
-  console.log("🎇 Hata Meydana Geldi 🎇");
+  // geliştirme ortamında terminalde detayları görebilmek için
+  console.log("😡 Hata Meydana Geldi 😡");
   console.error("Hata Detayları:", {
     message: err.message || "Bilinmeyen Hata",
     status: err.status || 500,
     stack: (err as Error).stack || "Stack bilgisi yok",
   });
 
-  // kullaniciya hata bilgisini gonder
+  // kullanıcya hata bilgisini gönderelim
   const errStatus: number = err.status || 500;
   const errMessage: string = err.message || "Üzgünüz, bir şeyler ters gitti";
 

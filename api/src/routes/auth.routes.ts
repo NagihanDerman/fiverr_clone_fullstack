@@ -8,8 +8,8 @@ const router: Router = express.Router()
 
 //2 yollari belirleme
 router.route("/register").post(upload.single("photo"), register);
-router.route("/login").post(login)
-router.route("/logout").post(logout)
+router.route("/login").post(login);
+router.route("/logout").post(logout);
 router.route("/profile").get(protect, profile);
 
 //3 router i app e tanitmak icin export etmek

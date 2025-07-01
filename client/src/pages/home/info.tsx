@@ -14,7 +14,7 @@ const Info = () => {
         freelance çözümü
       </p>
 
-      <div classNaame="grid md:grid-cols-2 gap-5">
+      <div className="grid md:grid-cols-2 gap-5">
         {items.map((item) => (
           <div>
             <h5 className="font-semibold flex items-center gap-3">
