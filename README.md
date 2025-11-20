@@ -60,3 +60,7 @@ Ce projet est un **clone de la plateforme de services Fiverr**. Les utilisateurs
 cd backend
 npm install
 npm run dev
+
+
+### GIF
+<img src="Fiver_clone.gif" alt="Demo" width="600"/>
