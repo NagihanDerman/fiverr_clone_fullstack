@@ -63,4 +63,4 @@ npm run dev
 
 
 ### GIF
-<img src="Fiverr_clone.gif" alt="Demo" width="600"/>
+<img src="Fiverr_clone.gif" alt="Demo"/>
